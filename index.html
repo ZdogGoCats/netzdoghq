@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090b10">
+<title>netzdog | HQ</title>
+<style>
+:root{color-scheme:dark;--bg:#090b10;--panel:#121722;--line:#273142;--muted:#9aa6b8;--blue:#63a8ff}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 50% -20%,#172943 0,transparent 55%),var(--bg);color:#f4f7fb;font:15px/1.5 Segoe UI,Arial,sans-serif}
+header{padding:22px clamp(20px,5vw,64px);display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);background:#090b10cc}
+.logo{font-size:25px;font-weight:800;letter-spacing:-1px}.logo span{color:var(--blue)}
+.tag{color:var(--muted);font-size:12px;letter-spacing:2px;text-transform:uppercase}
+main{max-width:1100px;margin:auto;padding:48px 22px 70px}
+.hero{margin-bottom:34px}.hero h1{font-size:clamp(38px,7vw,66px);line-height:1.02;letter-spacing:-3px;margin:8px 0 12px}.hero h1 span{color:var(--blue)}
+.hero p{color:var(--muted);font-size:17px;margin:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:16px}
+.card{background:linear-gradient(145deg,#151c29,#10151e);border:1px solid var(--line);border-radius:15px;padding:22px;min-height:160px;display:flex;flex-direction:column}
+.card h2{font-size:17px;margin:0 0 5px}.card p{color:var(--muted);margin:0 0 18px;font-size:13px;flex:1}
+a.btn{display:inline-flex;align-items:center;justify-content:center;align-self:flex-start;border:1px solid #38506e;border-radius:8px;padding:9px 13px;background:#17263a;color:#dcecff;text-decoration:none;font:600 13px Segoe UI,Arial;cursor:pointer}
+a.btn:hover{border-color:var(--blue);background:#203854}
+footer{border-top:1px solid var(--line);padding:22px;text-align:center;color:#748094;font-size:12px}
+@media(max-width:520px){header{align-items:flex-start;gap:10px;flex-direction:column}main{padding-top:34px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">netzdog<span>.</span></div>
+  <div class="tag">HQ · quick links</div>
+</header>
+<main>
+  <section class="hero">
+    <div class="tag">the netzdog network</div>
+    <h1>Welcome to <span>HQ.</span></h1>
+    <p>Your quick-access dashboard for netzdog tools, projects, and community.</p>
+  </section>
+  <section class="grid">
+    <article class="card">
+      <h2>Gmail</h2><p>Open netzdog email.</p>
+      <a class="btn" href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">Open Gmail ↗</a>
+    </article>
+    <article class="card">
+      <h2>MineKeep</h2><p>Manage your Minecraft server hosting.</p>
+      <a class="btn" href="https://minekeep.gg/" target="_blank" rel="noopener noreferrer">Open MineKeep ↗</a>
+    </article>
+    <article class="card">
+      <h2>GitHub</h2><p>Access repositories and development tools.</p>
+      <a class="btn" href="https://github.com/" target="_blank" rel="noopener noreferrer">Open GitHub ↗</a>
+    </article>
+    <article class="card">
+      <h2>webzdog · GitHub Pages</h2><p>Open the published GitHub Pages site.</p>
+      <a class="btn" href="https://zdoggocats.github.io/" target="_blank" rel="noopener noreferrer">Open GitHub Pages ↗</a>
+    </article>
+    <article class="card">
+      <h2>webzdog · Google Sites</h2><p>Open the webzdog site editor and page.</p>
+      <a class="btn" href="https://sites.google.com/view/webzdog/home?authuser=0" target="_blank" rel="noopener noreferrer">Open webzdog ↗</a>
+    </article>
+    <article class="card">
+      <h2>zdog111's iPhone Discord</h2><p>Join the Discord invite.</p>
+      <a class="btn" href="https://discord.gg/367Y8eE5Dt" target="_blank" rel="noopener noreferrer">Open Discord ↗</a>
+    </article>
+    <article class="card">
+      <h2>Google Meet</h2><p>Start or join a meeting.</p>
+      <a class="btn" href="https://meet.google.com/" target="_blank" rel="noopener noreferrer">Open Meet ↗</a>
+    </article>
+  </section>
+</main>
+<footer>© 2026 netzdog · built for the crew</footer>
+</body>
+</html>
